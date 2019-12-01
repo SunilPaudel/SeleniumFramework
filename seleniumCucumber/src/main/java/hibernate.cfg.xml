@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <property name="hibernate.connection.password">Oracle123</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@10.41.5.120:1521:orcl</property>
+        <property name="hibernate.connection.username">qacube_import_stage</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <property name="hibernate.search.autoregister_listeners">true</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <mapping class="qacubeHbnFiles.TestcaseDefect"/>
+        <mapping class="qacubeHbnFiles.TestcaseRequirement"/>
+        <mapping class="qacubeHbnFiles.ExecutionList"/>
+        <mapping class="qacubeHbnFiles.Defect"/>
+        <mapping class="qacubeHbnFiles.DefectComponent"/>
+        <mapping class="qacubeHbnFiles.Testcase"/>
+        <mapping class="qacubeHbnFiles.ProjectRelease"/>
+        <mapping class="qacubeHbnFiles.ProjectReleaseProject"/>
+        <mapping class="qacubeHbnFiles.RequirementRelease"/>
+        <mapping class="qacubeHbnFiles.Requirement"/>
+        <mapping class="qacubeHbnFiles.QTaskStatus"/>
+        <mapping class="qacubeHbnFiles.RequirementDefect"/>
+        <mapping class="qacubeHbnFiles.QTestcaseStatus"/>
+        <mapping class="qacubeHbnFiles.ExecutionlistRelease"/>
+        <mapping class="qacubeHbnFiles.DefectDetectedRelease"/>
+        <mapping class="qacubeHbnFiles.DefectTargetRelease"/>
+        <mapping class="qacubeHbnFiles.Project"/>
+        <mapping class="qacubeHbnFiles.TestcaseExecution"/>
+        <mapping class="qacubeHbnFiles.QTestcaseWorkstate"/>
+        <mapping class="qacubeHbnFiles.TestcaseRelease"/>
+    </session-factory>
+</hibernate-configuration>

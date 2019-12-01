@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="DEFECT"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="DEFECT_COMPONENT"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="DEFECT_DETECTED_RELEASE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="DEFECT_TARGET_RELEASE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="EXECUTIONLIST_RELEASE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="EXECUTION_LIST"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="PROJECT"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="PROJECT_RELEASE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="PROJECT_RELEASE_PROJECT"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="Q_TASK_STATUS"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="Q_TASK_WORKSTATE" exclude="true"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="Q_TESTCASE_STATUS"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="Q_TESTCASE_WORKSTATE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="REQUIREMENT"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="REQUIREMENT_DEFECT"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="REQUIREMENT_RELEASE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="TESTCASE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="TESTCASE_DEFECT"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="TESTCASE_EXECUTION"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="TESTCASE_RELEASE"/>
+  <table-filter match-schema="QACUBE_IMPORT_STAGE" match-name="TESTCASE_REQUIREMENT"/>
+</hibernate-reverse-engineering>
