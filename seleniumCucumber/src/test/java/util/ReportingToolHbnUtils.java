@@ -6,7 +6,7 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.service.ServiceRegistry;
 
-public class QACubeHbnUtils {
+public class ReportingToolHbnUtils {
 	
 	private static final SessionFactory sessionFactory = buildSessionFactory();
 
